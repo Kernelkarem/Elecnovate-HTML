@@ -881,7 +881,6 @@
   }
   .graphic-desin-container02 {
     height: auto;
-    position: relative;
     max-width: 100%;
   }
   .graphic-desin-text17 {
@@ -921,9 +920,6 @@
   .graphic-desin-container09 {
     height: 1690px;
     position: relative;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: flex-start;
     background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%);
   }
   .graphic-desin-image1 {
@@ -1099,7 +1095,6 @@
   .graphic-desin-pricing-card {
     width: 100%;
     max-width: 100%;
-    max-height: 100%;
     align-items: center;
   }
   .graphic-desin-pricing-card1 {
@@ -1166,7 +1161,6 @@
     width: 80%;
   }
   .graphic-desin-container02 {
-    height: 1497px;
     flex-flow: column;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
