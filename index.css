@@ -294,16 +294,18 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.gallery-card1-text1 {
-  color: var(--dl-color-gray-500);
-  align-self: flex-start;
+
+
+
+
+
+
+@media(max-width: 1600px) {
+  .gallery-card1-text {
+    font-size: 2rem;
+    align-self: center;
+  }
 }
-
-
-
-
-
-
 @media(max-width: 767px) {
   .gallery-card1-gallery-card {
     flex-direction: column;
@@ -333,13 +335,14 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.gallery-card11-text1 {
-  color: var(--dl-color-gray-500);
-  align-self: flex-start;
+
+
+
+@media(max-width: 1600px) {
+  .gallery-card11-text {
+    font-size: 2rem;
+  }
 }
-
-
-
 @media(max-width: 767px) {
   .gallery-card11-gallery-card {
     flex-direction: column;
@@ -371,7 +374,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: linear-gradient(113.8deg, rgba(255, 76, 92, 0.8) 7.5%, rgba(255, 177, 70, 0.8) 94.47%),url("public/design%20graphic-1500h.jpg");
+  background-image: linear-gradient(113.8deg, rgba(255, 76, 92, 0.8) 7.5%, rgba(255, 177, 70, 0.8) 94.47%),url("public/Home/design%20graphic-1500h.jpg");
   background-position: top left,center;
 }
 .home-text {
