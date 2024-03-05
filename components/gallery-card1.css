@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .gallery-card1-image {
-  width: 100%;
+  width: 75%;
   height: 100%;
   object-fit: cover;
 }
