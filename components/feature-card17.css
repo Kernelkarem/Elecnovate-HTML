@@ -25,12 +25,20 @@
 
 
 
-
+.feature-card17-root-class-name4 {
+  display: none;
+}
 
 
 
 @media(max-width: 1600px) {
   .feature-card17-root-class-name4 {
     display: none;
+  }
+}
+@media(max-width: 1200px) {
+  .feature-card17-root-class-name4 {
+    display: flex;
+    opacity: 1;
   }
 }
