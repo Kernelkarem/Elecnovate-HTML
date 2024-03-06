@@ -11,22 +11,41 @@
   object-fit: cover;
 }
 .gallery-card11-text {
+  font-size: 32;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
+.gallery-card11-text1 {
+  color: var(--dl-color-gray-500);
+  display: none;
+  align-self: flex-start;
+}
+
+
+
 
 
 
 @media(max-width: 1600px) {
   .gallery-card11-text {
-    font-size: 2rem;
+    font-size: 28;
+  }
+}
+@media(max-width: 1200px) {
+  .gallery-card11-text {
+    font-size: 22;
   }
 }
 @media(max-width: 767px) {
   .gallery-card11-gallery-card {
     flex-direction: column;
+  }
+}
+@media(max-width: 576px) {
+  .gallery-card11-text {
+    font-size: 18;
   }
 }
 @media(max-width: 479px) {

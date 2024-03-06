@@ -1,3 +1,233 @@
+.navbar-interactive-container {
+  display: flex;
+  position: relative;
+}
+.navbar-interactive-navbar-interactive {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.navbar-interactive-image {
+  height: 2rem;
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbar-interactive-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-interactive-links {
+  flex: 1;
+  display: flex;
+  font-size: 24;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar-interactive-navlink {
+  text-decoration: none;
+}
+.navbar-interactive-navlink1 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navbar-interactive-navlink2 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navbar-interactive-text {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navbar-interactive-text1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navbar-interactive-navlink3 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navbar-interactive-navlink4 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navbar-interactive-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-interactive-login {
+  display: none;
+  border-width: 0px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbar-interactive-register {
+  display: none;
+}
+.navbar-interactive-burger-menu {
+  display: none;
+}
+.navbar-interactive-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.navbar-interactive-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.navbar-interactive-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navbar-interactive-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.navbar-interactive-logo {
+  height: 2rem;
+}
+.navbar-interactive-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-interactive-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.navbar-interactive-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navbar-interactive-text2 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.navbar-interactive-text3 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.navbar-interactive-text4 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.navbar-interactive-text5 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.navbar-interactive-text6 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.navbar-interactive-buttons1 {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-interactive-login1 {
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbar-interactive-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbar-interactive-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbar-interactive-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.navbar-interactive-root-class-name {
+  width: 100%;
+}
+@media(max-width: 1600px) {
+  .navbar-interactive-links {
+    font-size: 20;
+  }
+}
+@media(max-width: 1200px) {
+  .navbar-interactive-links {
+    font-size: 18;
+  }
+}
+@media(max-width: 991px) {
+  .navbar-interactive-image {
+    margin-right: 512px;
+  }
+  .navbar-interactive-desktop-menu {
+    display: none;
+  }
+  .navbar-interactive-burger-menu {
+    display: flex;
+  }
+}
+@media(max-width: 767px) {
+  .navbar-interactive-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .navbar-interactive-image {
+    margin-right: 400px;
+  }
+  .navbar-interactive-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-interactive-text2 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navbar-interactive-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navbar-interactive-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navbar-interactive-text5 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navbar-interactive-text6 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 576px) {
+  .navbar-interactive-image {
+    margin-right: var(--dl-space-space-fiveunits);
+  }
+}
+@media(max-width: 479px) {
+  .navbar-interactive-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .navbar-interactive-mobile-menu {
+    padding: 16px;
+  }
+}
+
 .blog-post-card4-blog-post-card {
   width: 100%;
   display: flex;
@@ -275,12 +505,14 @@
 }
 .home-text15 {
   color: #ffffff;
+  font-size: 32;
   text-align: center;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text16 {
   color: #ffffff;
+  font-size: 28;
   margin-right: var(--dl-space-space-threeunits);
 }
 .home-container3 {
@@ -439,13 +671,14 @@
   .home-text15 {
     color: #ffffff;
     width: 100%;
+    font-size: 28;
     align-self: flex-start;
     text-align: left;
   }
   .home-text16 {
     color: #ffffff;
     width: 100%;
-    font-size: 27px;
+    font-size: 24;
     font-family: Noto Sans Mono;
   }
   .home-about-us {
@@ -486,9 +719,6 @@
   }
   .home-text15 {
     font-weight: 600;
-  }
-  .home-text16 {
-    font-size: 27px;
   }
   .home-text17 {
     font-size: 19px;
