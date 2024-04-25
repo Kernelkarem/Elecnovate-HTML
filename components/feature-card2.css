@@ -21,8 +21,12 @@
   justify-content: flex-start;
 }
 .feature-card2-text {
+  font-size: 32;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
+}
+.feature-card2-text1 {
+  font-size: 26;
 }
 
 
@@ -39,6 +43,16 @@
   }
   .feature-card2-container {
     flex-direction: column;
+  }
+}
+@media(max-width: 576px) {
+  .feature-card2-root-class-name4 {
+    width: 100%;
+    height: auto;
+    position: 0px;
+  }
+  .feature-card2-root-class-name5 {
+    height: var(--dl-size-size-small);
   }
 }
 @media(max-width: 479px) {
